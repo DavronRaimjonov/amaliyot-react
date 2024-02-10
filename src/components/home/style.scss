@@ -1,0 +1,30 @@
+.products {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  img {
+    width: 100%;
+  }
+  h3 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #1f2026;
+  }
+  .buy_price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  h2 {
+    font-weight: 500;
+    font-size: 15px;
+    color: #1f2026;
+  }
+}
+.cart {
+  cursor: pointer;
+  .shop {
+    font-size: 20px;
+  }
+}

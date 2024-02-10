@@ -1,0 +1,35 @@
+.header {
+  padding: 20px 0;
+
+  .navbar,
+  .navbar_links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .navbar_links {
+    p {
+      font-weight: 500;
+      font-size: 14px;
+      color: #1f2026;
+    }
+    .icon {
+      font-size: 20px;
+    }
+    div {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+    }
+  }
+  .count {
+    background-color: rgb(112, 2, 255);
+    color: #fff;
+    padding: 2px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
